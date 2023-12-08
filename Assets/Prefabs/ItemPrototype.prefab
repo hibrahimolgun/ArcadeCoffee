@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 8057671730448774825}
   - component: {fileID: 1908693290802294305}
   - component: {fileID: 1447165185402376004}
-  - component: {fileID: 7342206316506704645}
   - component: {fileID: 1153109275742117158}
+  - component: {fileID: 3385517326040326085}
   m_Layer: 0
   m_Name: ItemPrototype
   m_TagString: Untagged
@@ -29,8 +29,8 @@ Transform:
   m_GameObject: {fileID: 1561255470726620767}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 1.065, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561255470726620767}
-  m_Mesh: {fileID: 5304856063399976830, guid: 2e6931140dfc0a342b8aaca58929e860, type: 3}
+  m_Mesh: {fileID: -5220560394007434035, guid: 4a7b523925195b54190eb8910667db57, type: 3}
 --- !u!23 &1447165185402376004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -63,7 +63,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c91732b1f9025254389e917797db9b70, type: 2}
+  - {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -85,8 +85,31 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!135 &7342206316506704645
-SphereCollider:
+--- !u!114 &1153109275742117158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1561255470726620767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1e4951f091141144ab061460c0997202, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _itemID: 5
+  _itemName: filledTeacup
+  _itemSprite: {fileID: 0}
+  _itemMesh: {fileID: -5220560394007434035, guid: 4a7b523925195b54190eb8910667db57,
+    type: 3}
+  _itemMaterial: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
+  itemList: {fileID: 11400000, guid: ca92c6f99c2b4b54d87f7ffd56bb851c, type: 2}
+  _itemSize: 2.5
+  _renderer: {fileID: 1447165185402376004}
+  _meshFilter: {fileID: 1908693290802294305}
+  _collider: {fileID: 3385517326040326085}
+--- !u!65 &3385517326040326085
+BoxCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -100,30 +123,9 @@ SphereCollider:
     serializedVersion: 2
     m_Bits: 0
   m_LayerOverridePriority: 0
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
-  m_Radius: 0.5
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &1153109275742117158
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1561255470726620767}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1e4951f091141144ab061460c0997202, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _itemID: 1
-  _itemName: Hat
-  _itemSprite: {fileID: 0}
-  _itemMesh: {fileID: 5304856063399976830, guid: 2e6931140dfc0a342b8aaca58929e860,
-    type: 3}
-  _itemMaterial: {fileID: 2100000, guid: c91732b1f9025254389e917797db9b70, type: 2}
-  itemList: {fileID: 11400000, guid: ca92c6f99c2b4b54d87f7ffd56bb851c, type: 2}
-  _renderer: {fileID: 1447165185402376004}
-  _meshFilter: {fileID: 1908693290802294305}
+  m_Size: {x: 0.5, y: 0.5, z: 0.5}
+  m_Center: {x: 0, y: 0.25, z: 0}

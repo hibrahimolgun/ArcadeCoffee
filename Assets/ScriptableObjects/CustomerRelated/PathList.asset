@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b8b989c077e6802469af17f7380ac8f5, type: 3}
+  m_Name: PathList
+  m_EditorClassIdentifier: 
+  _startPoint: {x: -17.5, y: 0, z: -3}
+  pathScripts:
+  - {fileID: 11400000, guid: 171e0aceef9f40a4d971138fc738a15d, type: 2}
+  - {fileID: 11400000, guid: 7445266c2a4c5da4ab406c8cd0d09b6a, type: 2}
+  - {fileID: 11400000, guid: e24c108fee8f6d545866d53d65f18e9e, type: 2}
+  - {fileID: 11400000, guid: d40a71c8a8bb5084c95113d58031ef39, type: 2}
+  _tablePoints:
+  - {x: -7.75, y: 1, z: -1.5}
+  - {x: -5.75, y: 1, z: 1}
+  - {x: -3.75, y: 1, z: -1.5}
+  - {x: -1.75, y: 1, z: 1}

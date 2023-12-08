@@ -1,0 +1,529 @@
+fileFormatVersion: 2
+guid: 1728428c8283a264f8bba693d9a3142f
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: happy1
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 3280
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d26f6cf7ee30e94c8c2e744eb07568d
+      internalID: -1667473295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy2
+      rect:
+        serializedVersion: 2
+        x: 3158
+        y: 3289
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367dec72abb5fa0469173221c5c23645
+      internalID: 1370880799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy3
+      rect:
+        serializedVersion: 2
+        x: 4468
+        y: 3280
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f60744e2f4aa61c43ac27999052a31da
+      internalID: -1898713981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy5
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 2488
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db38db501b6e3c7469dbbfc1e5568215
+      internalID: 695953624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry4
+      rect:
+        serializedVersion: 2
+        x: 4477
+        y: 1687
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1bc8d93d7e331f4ebf05a61bd6bf117
+      internalID: -1048224804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry3
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 1687
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0bc5d48b5cdffd4bb97be2bf5b361eb
+      internalID: 375667298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy4
+      rect:
+        serializedVersion: 2
+        x: 1836
+        y: 2497
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76ede0976f2a3664d8255abc5d65e48c
+      internalID: 1587246913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry1
+      rect:
+        serializedVersion: 2
+        x: 529
+        y: 1715
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e731780b735c5448a7651f8ad79e17
+      internalID: 1644479344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry2
+      rect:
+        serializedVersion: 2
+        x: 1846
+        y: 1709
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3582e9d6a527f134cabaf51beae4a3f7
+      internalID: -617646641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 901
+        width: 837
+        height: 692
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c9f89966e9c18c4ea440741953ccbb1
+      internalID: 420118942
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy7
+      rect:
+        serializedVersion: 2
+        x: 4484
+        y: 919
+        width: 837
+        height: 604
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d724c097396c3c94ab8af0a2322c33b2
+      internalID: 724575035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happy8
+      rect:
+        serializedVersion: 2
+        x: 4474
+        y: 205
+        width: 837
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 450fec181a96d6e439d4ef6e51e90359
+      internalID: -1723791073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry5
+      rect:
+        serializedVersion: 2
+        x: 525
+        y: 205
+        width: 837
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0d765cad9569e848a7da404c2d8f567
+      internalID: 745804877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: angry6
+      rect:
+        serializedVersion: 2
+        x: 3195
+        y: 191
+        width: 837
+        height: 657
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1b706c32079e5b41ab7ce397e7193d6
+      internalID: 1378876076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_0: 538003123
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_1: 1110286049
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_16: 1163788934
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_17: 1050882892
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_18: 1635038346
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_19: -1281983763
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_20: -1386754546
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_21: 1403430760
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_22: -1604099506
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_23: -279857701
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_24: 2100347507
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_25: 269543129
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_26: -872281292
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_27: 465895691
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_28: -2035022961
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_29: 1055390407
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_30: -947344786
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_31: 1633193304
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_32: 1977881423
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_33: 344701489
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_34: 1830482993
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_35: -729470315
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_36: -2050521932
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_37: -1601826874
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_38: -922682226
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_39: 1641771931
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_40: 618805469
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_41: 500451360
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_42: 540583589
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_43: 490583069
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_44: -558043473
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_45: -1414085441
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_46: -1889348401
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_47: 770312841
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_48: -1580063267
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_49: 918889071
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_50: 1534861417
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_51: -1427855311
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_52: 1137493629
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_53: -1908799458
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_54: 1069701377
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_55: 155530685
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_56: -2061175108
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_57: 1658638974
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_58: 359499365
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_59: -642795959
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_60: 1121414994
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_61: 470704201
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_62: 859421329
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_63: 498363046
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_64: 227778425
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_65: -1685879815
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_66: 1601550880
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_67: 941593615
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_68: 966146273
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_69: 169455336
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_70: 1539880384
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_71: 187690178
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_72: 1340016067
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_73: -1992622044
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_74: 1673291817
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_75: 993862864
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_76: -441923018
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_77: 727746714
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_78: -554069092
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_79: 528309792
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_80: 1951395616
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_81: -122496943
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_82: -2081366061
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_83: -156203805
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_84: 546706176
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_85: -20352511
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_86: 1993008708
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_87: -316584988
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_88: 1592550698
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_89: -921828442
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_90: 1796035007
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_91: -2017854322
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_92: 880254337
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_93: -1035763623
+      Cute_face_expressions_set_hand_drawn_cartoon_art_illustration-modified_94: -1493503694
+      angry1: 1644479344
+      angry2: -617646641
+      angry3: 375667298
+      angry4: -1048224804
+      angry5: 745804877
+      angry6: 1378876076
+      happy1: -1667473295
+      happy2: 1370880799
+      happy3: -1898713981
+      happy4: 1587246913
+      happy5: 695953624
+      happy6: 420118942
+      happy7: 724575035
+      happy8: -1723791073
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

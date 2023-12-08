@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60933641216ba5e418829fd066bc6718, type: 3}
+  m_Name: Menu
+  m_EditorClassIdentifier: 
+  items:
+  - id: 3
+    name: cupOfcoffee
+    sprite: {fileID: 21300000, guid: 08bba3f20926aab4ea1e8bb5c20f5d95, type: 3}
+    mesh: {fileID: -4196981301329738609, guid: 6c437570dac25d84487b1ca2f78b050d, type: 3}
+    material: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
+    size: 1
+    price: 50
+    timeToFinish: 10
+    _emptyID: 0
+  - id: 5
+    name: Tea
+    sprite: {fileID: 21300000, guid: 91db6f0cff93172468002e1b2ba6a0d3, type: 3}
+    mesh: {fileID: -5220560394007434035, guid: 4a7b523925195b54190eb8910667db57, type: 3}
+    material: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
+    size: 1
+    price: 30
+    timeToFinish: 10
+    _emptyID: 0
+  - id: 12
+    name: CheeseCake
+    sprite: {fileID: 21300000, guid: 475b51db535bccb49b21f97890c54422, type: 3}
+    mesh: {fileID: 6614401778764597970, guid: 74a2fffc46a3b404e8143b1b51d6307a, type: 3}
+    material: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
+    size: 1
+    price: 70
+    timeToFinish: 15
+    _emptyID: 0
+  - id: 10
+    name: Cupcake
+    sprite: {fileID: 21300000, guid: 0b83c8097656b0d45bd85182232a9779, type: 3}
+    mesh: {fileID: 4861290514539720786, guid: dc4d609f2e558844ba1f2bcf8ed5eb49, type: 3}
+    material: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
+    size: 1
+    price: 70
+    timeToFinish: 15
+    _emptyID: 0
+  - id: 11
+    name: Donut
+    sprite: {fileID: 21300000, guid: ccfab09f621eda744a6cc3509da86eda, type: 3}
+    mesh: {fileID: -3278481828029068443, guid: 83e5d2dc9146fc14485beceb1ba9f11d, type: 3}
+    material: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
+    size: 1
+    price: 70
+    timeToFinish: 15
+    _emptyID: 0
