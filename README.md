@@ -17,3 +17,5 @@ Egg Coffee Table Set by Monqo Studios \\
 
 Ps. The scenes are 0-Sample(prop scene), 1-Main Scene, 2-Tutorial Scene
 
+Use portrait resolution 1080x1920.
+
