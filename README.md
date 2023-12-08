@@ -15,5 +15,5 @@ Some Low Poly Models from Poly.Pizza by Google \\
 Christmas Tree by LowlyPoly \\
 Egg Coffee Table Set by Monqo Studios \\
 
-
+Ps. The scenes are 0-Sample(prop scene), 1-Main Scene, 2-Tutorial Scene
 
