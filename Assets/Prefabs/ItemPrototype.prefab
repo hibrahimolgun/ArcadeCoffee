@@ -30,7 +30,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 2.5}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 0}
@@ -42,7 +42,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1561255470726620767}
-  m_Mesh: {fileID: -5220560394007434035, guid: 4a7b523925195b54190eb8910667db57, type: 3}
+  m_Mesh: {fileID: 6380697309018195274, guid: e33bdb75c1c969a479ddc21e18666bc2, type: 3}
 --- !u!23 &1447165185402376004
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -97,14 +97,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e4951f091141144ab061460c0997202, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _itemID: 5
-  _itemName: filledTeacup
-  _itemSprite: {fileID: 0}
-  _itemMesh: {fileID: -5220560394007434035, guid: 4a7b523925195b54190eb8910667db57,
+  _itemID: 1
+  _itemName: espresso
+  _itemSprite: {fileID: 21300000, guid: f0626c70d7d13c845ab49b27565ab6e3, type: 3}
+  _itemMesh: {fileID: 6380697309018195274, guid: e33bdb75c1c969a479ddc21e18666bc2,
     type: 3}
   _itemMaterial: {fileID: 2100000, guid: bd00553a7411422498c8e4d04a697828, type: 2}
   itemList: {fileID: 11400000, guid: ca92c6f99c2b4b54d87f7ffd56bb851c, type: 2}
-  _itemSize: 2.5
+  _itemSize: 1
   _renderer: {fileID: 1447165185402376004}
   _meshFilter: {fileID: 1908693290802294305}
   _collider: {fileID: 3385517326040326085}

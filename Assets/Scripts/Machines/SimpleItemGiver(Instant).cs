@@ -5,7 +5,7 @@ using UnityEngine;
 [SelectionBase]
 public class SimpleItemGiver : MonoBehaviour
 {
-    [SerializeField] private Item _itemPrefab;
+    [SerializeField] private ItemPool _itemPool;
     [SerializeField] private int outputItemID;
     private Item _outputItem;
 
@@ -13,16 +13,18 @@ public class SimpleItemGiver : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.GetComponent<PlayerController>() == null) return;
-        var player = other.gameObject.GetComponent<PlayerController>();
-        if (player._holdingItem == null)
+        if (other.TryGetComponent<PlayerController>(out var player))
         {
-            _outputItem = Instantiate(_itemPrefab, transform.position, Quaternion.identity);
-            _outputItem.InitItem(outputItemID);
-            player.HoldThis(_outputItem);
-            if (_animationScript != null) _animationScript.CorrectAnimation(); //animation
-            _outputItem = null;
-            return;
+            if (player._holdingItem == null)
+            {
+                _outputItem = _itemPool.GetItem();
+                _outputItem.gameObject.SetActive(true);
+                _outputItem.InitItem(outputItemID);
+                player.HoldThis(_outputItem);
+                if (_animationScript != null) _animationScript.CorrectAnimation(); //animation
+                _outputItem = null;
+                return;
+            }
         }
     }
 }

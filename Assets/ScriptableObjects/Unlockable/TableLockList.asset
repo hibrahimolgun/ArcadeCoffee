@@ -15,13 +15,13 @@ MonoBehaviour:
   _tableLocks:
   - tableNumber: 0
     isLocked: 1
-    price: 5000
+    price: 50
   - tableNumber: 1
     isLocked: 1
-    price: 930
+    price: 30
   - tableNumber: 2
-    isLocked: 0
-    price: 0
+    isLocked: 1
+    price: 20
   - tableNumber: 3
     isLocked: 0
     price: 0

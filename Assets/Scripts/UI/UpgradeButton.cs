@@ -22,6 +22,7 @@ public class UpgradeButton : MonoBehaviour, IPointerEnterHandler, IPointerExitHa
     private void Start()
     {
         _currentValueText.text = "% " + Mathf.RoundToInt((1-((_currentValue.value-0.5f)/0.5f))*100).ToString();
+        _upgradeCostText.text = "<sprite index=0> " + _upgradeCost.ToString();
     }
 
     public void OnPointerEnter(PointerEventData eventData)

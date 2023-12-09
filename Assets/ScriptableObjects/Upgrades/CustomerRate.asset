@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bfcd95d6e99237e41b805f3f0dc3a4e9, type: 3}
   m_Name: CustomerRate
   m_EditorClassIdentifier: 
-  min: 10
-  max: 16
-  value: 0.49999988
+  min: 5
+  max: 10
+  value: 1

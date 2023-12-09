@@ -51,7 +51,7 @@ public class PlayerController : MonoBehaviour
         var item = _holdingItem;
         _holdingItem.transform.SetParent(null);
         _holdingItem = null;
-        Destroy(item.gameObject);
+        item.ItemDestroy(0f);
     }
 
     private void Interact()

@@ -13,6 +13,8 @@ public class Item : MonoBehaviour
     public ItemList itemList;
     public float _itemSize;
     
+    public ItemPool _itemPool;
+    
     [Header("Components")]
     [SerializeField] private Renderer _renderer;
     [SerializeField] private MeshFilter _meshFilter;
@@ -46,7 +48,12 @@ public class Item : MonoBehaviour
 
     public void ItemDestroy(float destroyAfterSeconds)
     {
-        Destroy(gameObject, destroyAfterSeconds);
+        DOVirtual.DelayedCall(destroyAfterSeconds, () => 
+        {
+            gameObject.SetActive(false);
+            transform.SetParent(_itemPool.transform);
+            _itemPool.pool.Return(this);
+        });
     }
 
     private void OnTriggerEnter(Collider other)
@@ -63,7 +70,8 @@ public class Item : MonoBehaviour
             }
             else if (player._holdingItem._itemID == 100)
             {
-                _collider.enabled=false; Destroy(gameObject);
+                _collider.enabled=false;
+                ItemDestroy(0);
                 Debug.Log("destroyed");
             } 
             else Debug.Log("use Broom");
@@ -73,5 +81,10 @@ public class Item : MonoBehaviour
     public Vector3 ReturnRotation()
     {
         return itemList.GetItem(_itemID).rotation;
+    }
+
+    public void SetPool(ItemPool itemPool)
+    {
+        _itemPool = itemPool;
     }
 }

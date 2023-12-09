@@ -9,7 +9,7 @@ public class MusicSlider : MonoBehaviour, IDragHandler
     [SerializeField] private AudioSource _audioSource;
     [SerializeField] private Slider slider;
 
-    private void Start()
+    private void Awake()
     {
         slider.value = 0.3f;
         _audioSource.volume = slider.value;

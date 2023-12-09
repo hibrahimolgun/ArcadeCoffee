@@ -7,10 +7,10 @@ using DG.Tweening;
 public class InOutSpawner : MonoBehaviour
 {
     [Header("Items")]
-    [SerializeField] private Item itemPrefab; //item prefab
+    //[SerializeField] private Item itemPrefab; //item prefab
+    [SerializeField] private ItemPool _itemPool;
     [SerializeField] private int _inputItemID;
     [SerializeField] private int _outputItemID;
-    [SerializeField] private ItemList itemList; //item list
     private Item _outputItem;
 
     [Header("Spawn Settings")]
@@ -24,6 +24,7 @@ public class InOutSpawner : MonoBehaviour
     [Header("Animation")]
     [SerializeField] private AnimationTrial _animationScript;
     [SerializeField] private CountdownIndicator _countdownIndicator;
+    
 
     private void Start()
     {
@@ -81,9 +82,9 @@ public class InOutSpawner : MonoBehaviour
         _isSpawning = true; //start spawn
         if (_countdownIndicator != null) _countdownIndicator.StartTimer(_timerRange.value * _timerRange.max); //start timer
         yield return new WaitForSeconds(_timerRange.value * _timerRange.max); //wait for timer
-        _outputItem = itemPrefab; //init item prefab
+        _outputItem = _itemPool.GetItem();
+        _outputItem.gameObject.SetActive(true);
         _outputItem.InitItem(_outputItemID); //init output item
-        _outputItem = Instantiate(_outputItem, _outputPosition.position, Quaternion.identity); //spawn output item
         _outputItem.transform.SetParent(_outputPosition); //set parent
         _outputItem.transform.localPosition = Vector3.zero; //set local position
         _outputReady = true; //output ready
